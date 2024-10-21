@@ -1,0 +1,213 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #8f4207;
+    text-align: center;
+    padding: 40px;
+    color: #c27933;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    width: 100vw;
+    min-height: 1600px; 
+    margin: 0;
+    padding: 0;
+    background-color: #c27933;
+}
+
+#profile {
+    max-width: 100%; 
+    text-align: center; 
+    position: relative;
+    top: 200px;          
+}
+
+#profile img {
+    max-width: 15%; 
+    height: 15%; 
+    border-radius: 15px;
+}
+
+#profiledescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d3f0f;
+    border-radius: 15px;
+    padding: 20px;
+    width: 450px;
+    color: #c27933;
+    margin: 0 auto; 
+    top: 250px; 
+    position: relative;
+}
+
+#trabalhos {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #7d3f0f;
+    border-radius: 15px;
+    padding: 20px;
+    width: 450px;
+    color: #c27933;
+    margin: 0 auto;
+    top: 280px; 
+    position: relative; 
+}
+
+#habilidades {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #7d3f0f;
+    color: #c27933;
+    border-radius: 15px;
+    padding: 10px;
+    width: 400px; 
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+}
+
+
+#projetostxt {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    margin: 0 auto;         
+    width: 200px;              
+    position: relative;
+    top: 320px;
+    background-color: #7d3f0f;
+    color: #c27933;
+    border-radius: 15px;
+}
+
+#livrariabonaparte {
+    display: flex;
+    position: relative;
+    top: 400px;
+    width: 100px;
+    height: 100px;
+}
+
+.imgbonnaparte {
+    display: flex;
+    position: relative;
+    background-color: #7d3f0f;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #7d3f0f;
+    border-radius: 15px;
+    padding: 10px;
+    width: 200px; 
+    margin: 0 auto;
+    position: relative;
+    top: 350px;
+    right: 150px;
+}
+
+.imgbonnaparte {
+    width: 100%; 
+}
+
+.imgbonnaparte img {
+    width: 100%;
+    height: auto; 
+    border-radius: 15px;
+}
+
+.txtbonnaparte {
+    margin-top: 10px; 
+    text-align: center;
+    color: #c27933
+}
+
+.Olimpiadas {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #7d3f0f; 
+    border-radius: 15px; 
+    padding: 10px;
+    width: 200px; 
+    margin: 20px auto; 
+    position: relative;
+    left: 150px;
+    top: 75px;
+}
+
+.imgolimpiadas {
+    width: 150px; 
+}
+
+.imgolimpiadas img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 15px; 
+}
+
+.txtolimpiadas {
+    margin-top: 10px; 
+    text-align: center; 
+    color: #c27933; 
+}
+
+
+footer{
+    background-color: #8f4207;
+    text-align: center;
+    padding: 40px;
+    color: #c27933;
+    width: 100%;
+    z-index: 1000;
+}
+
+#livrariaCSS{
+    text-decoration: none;
+}
+
+#olimpiadasCSS{
+    text-decoration: none;
+}
+
+.Links {
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.Links ul {
+    list-style-type: none;
+}
+
+.Links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.Links a {
+    text-decoration: none;
+    color: #c27933;
+}
+
+.Links a:hover {
+    color: #fff;
+}
+
+
